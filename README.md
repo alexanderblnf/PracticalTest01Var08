@@ -1,2 +1,2 @@
 # PracticalTest01Var08
-Test Practic EIM
+Balan Alexandru 342C1
