@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_practical_test01_var08_secondary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ro.pub.cs.systems.eim.practicaltest01var08.PracticalTest01Var08SecondaryActivity">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="21dp"
+        android:id="@+id/nr1show" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr1show"
+        android:layout_alignLeft="@+id/nr1show"
+        android:layout_alignStart="@+id/nr1show"
+        android:layout_marginTop="45dp"
+        android:id="@+id/nr2show" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr2show"
+        android:layout_alignRight="@+id/nr2show"
+        android:layout_alignEnd="@+id/nr2show"
+        android:layout_marginTop="45dp"
+        android:id="@+id/nr3show" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr3show"
+        android:layout_alignRight="@+id/nr3show"
+        android:layout_alignEnd="@+id/nr3show"
+        android:layout_marginTop="33dp"
+        android:id="@+id/nr4show" />
+
+    <Button
+        android:text="Sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nr4show"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="52dp"
+        android:id="@+id/sumbtn" />
+
+    <Button
+        android:text="Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sumbtn"
+        android:layout_alignRight="@+id/sumbtn"
+        android:layout_alignEnd="@+id/sumbtn"
+        android:layout_marginTop="34dp"
+        android:id="@+id/prodbtn" />
+</RelativeLayout>
